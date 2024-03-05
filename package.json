@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/xiaokatech/nodeJS-lab/issues"
   },
-  "homepage": "https://github.com/xiaokatech/nodeJS-lab#readme"
+  "homepage": "https://github.com/xiaokatech/nodeJS-lab#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.24"
+  }
 }
