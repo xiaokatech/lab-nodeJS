@@ -2,7 +2,7 @@ import { TicketManager } from "./ticketManager";
 import { DatabaseService } from "./databaseService";
 import { EmailService } from "./emailService";
 
-const ticketManager = new TicketManager(0);
+const ticketManager = new TicketManager(10);
 const emailService = new EmailService();
 const databaseService = new DatabaseService();
 
