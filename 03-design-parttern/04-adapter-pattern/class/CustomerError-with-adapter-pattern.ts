@@ -9,6 +9,7 @@ export class CustomeError_v2 implements INewError {
   }
 
   serialize() {
+    // @TODO: In future replace this function with NewCustomerError
     return new NewCustomerError(this.message).serialize();
   }
 }
