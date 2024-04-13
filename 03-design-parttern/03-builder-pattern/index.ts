@@ -6,7 +6,7 @@ userBuilder.setLastName("Doe");
 userBuilder.setGender("man");
 userBuilder.setAge(30);
 
-console.log("getAllValues", userBuilder.getAllValues());
-console.log("typeof getAllValues", typeof userBuilder.getAllValues());
-console.log("build", userBuilder.build());
-console.log("typeof build", typeof userBuilder.build());
+console.log("getAllValues", userBuilder.getAllValues()); // instance of UserBuilder
+console.log("typeof getAllValues", typeof userBuilder.getAllValues()); // object
+console.log("build", userBuilder.build()); // instance of User
+console.log("typeof build", typeof userBuilder.build()); // object
